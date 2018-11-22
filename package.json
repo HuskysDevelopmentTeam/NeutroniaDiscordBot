@@ -1,0 +1,17 @@
+{
+  "name": "neutronia-discord-bot",
+  "version": "0.0.1",
+  "description": "This is my personal discord bot for my mod's discord server",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "OliviaTheVampire",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security",
+    "moment": "^2.22.2"
+  }
+}

@@ -33,7 +33,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'teamInfo',
+  name: 'teaminfo',
   description: 'Tells about the team behind Neutronia',
-  usage: 'teamInfo'
+  usage: 'teaminfo'
 };

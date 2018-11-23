@@ -1,8 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const settings = require('./settings.json');
+const secrets = require('./secrets.json');
 const chalk = require('chalk');
 const fs = require('fs');
+const yt = require('ytdl-core');
 const moment = require('moment');
 require('./util/eventLoader')(client);
 
@@ -60,7 +62,6 @@ client.elevation = message => {
 };
 
 client.on('message', message => {
-
   // Ignore messages that aren't from a guild
   if (!message.guild) return;
 
@@ -164,5 +165,5 @@ client.on('message', message => {
   }
 });
 
-// client.login(settings.token_2);
-client.login(settings.token);
+// client.login(secrets.token_2);
+client.login(secrets.token);

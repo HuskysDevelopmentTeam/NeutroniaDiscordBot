@@ -3,5 +3,6 @@
 	"modrolename": "Mod",
 	"adminrolename": "Admin",
 	"overlordrolename": "The Master",
-	"prefix": "!"
+	"prefix": "!",
+	"passes": 1
 }
